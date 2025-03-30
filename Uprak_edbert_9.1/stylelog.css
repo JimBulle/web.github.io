@@ -1,0 +1,62 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #ff5d0c;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box label {
+    margin: 10px 0 5px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5d0c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #b43e03;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(Assets/blueback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 9%;
+    height: 6%;
+}
